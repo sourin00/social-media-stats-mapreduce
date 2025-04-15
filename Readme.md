@@ -34,8 +34,6 @@ For Windows/PyCharm setup:
 ```
 social_media_analytics/
 ├── config.json                   # Configuration file
-├── local_mapreduce.py            # Local MapReduce simulator
-├── workflow_driver.py            # Workflow orchestration script
 ├── README.md                     # This file
 │
 ├── data/                         # Input data directory
@@ -58,15 +56,17 @@ social_media_analytics/
 │   ├── trending_content_mapper.py      # Trending content mapper
 │   ├── trending_content_combiner.py    # Trending content combiner
 │   ├── trending_content_reducer.py     # Trending content reducer
+│   ├── social_media_analytics_driver.py    # Workflow orchestration script
 │   ├── join_activity_mapper.py    # Join activity data mapper
 │   ├── join_profile_mapper.py     # Join profile data mapper
 │   ├── join_reducer.py            # Join reducer
+|   ├── visualize_analytics.py     # Static visualization generator
+│   ├── analytics_dashboard.py     # Interactive dashboard application
 │   ├── skew_detection.py          # Utility for detecting data skew
 │   └── memory_monitor.py          # Utility for monitoring memory usage
 │
 └── visualizations/               # Visualization tools
-    ├── visualize_analytics.py     # Static visualization generator
-    └── analytics_dashboard.py     # Interactive dashboard application
+    
 ```
 
 ## Quick Start
