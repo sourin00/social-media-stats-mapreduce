@@ -77,7 +77,11 @@ social_media_analytics/
    ```
    pip install numpy psutil matplotlib pandas dash plotly scipy
    ```
-
+3. **Unzip the following files as git does not allow files more than 100MB to be uploaded**
+    ```
+    social_media_logs.zip
+    cleansed_data.zip
+    ```
 3. **Run the complete workflow**
    ```
    python workflow_driver.py --config config.json
@@ -226,7 +230,3 @@ If you encounter issues:
 2. **Verify input data format** - Make sure your data files match the expected format
 3. **Check Python environment** - Ensure all required packages are installed
 4. **Review logs** - Check workflow.log for detailed error messages
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
