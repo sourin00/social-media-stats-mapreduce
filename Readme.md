@@ -84,17 +84,17 @@ social_media_analytics/
     ```
 3. **Run the complete workflow**
    ```
-   python workflow_driver.py --config config.json
+   python social_media_analytics_driver.py --config config.json
    ```
 
 4. **Generate visualizations**
    ```
-   python visualizations/visualize_analytics.py --input-dir output --output-dir visualizations
+   python visualize_analytics.py --input-dir output --output-dir visualizations
    ```
 
 5. **Launch the interactive dashboard**
    ```
-   python visualizations/analytics_dashboard.py
+   python analytics_dashboard.py
    ```
 
 ## Components in Detail
@@ -204,7 +204,7 @@ The `visualize_analytics.py` script generates several visualization files:
 
 Run with:
 ```
-python visualizations/visualize_analytics.py --input-dir output --output-dir visualizations
+python visualize_analytics.py --input-dir output --output-dir visualizations
 ```
 
 ### Interactive Dashboard
@@ -218,7 +218,7 @@ The `analytics_dashboard.py` provides a web interface with:
 
 Run with:
 ```
-python visualizations/analytics_dashboard.py
+python analytics_dashboard.py
 ```
 Then open your web browser to http://127.0.0.1:8050/
 
